@@ -4,7 +4,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/computer_store?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
     username: root
-    password: root
+    password: 5870070
   #文件上传的相关设置
   servlet:
     multipart:
@@ -14,7 +14,7 @@ spring:
 
 #配置mybatis配置
 mybatis:
-  type-aliases-package: top.year21.computerstore.entity
+  type-aliases-package: com.kqh.computerstore.entity
   mapper-locations: classpath:mybatis/mapper/*.xml
   configuration:
     #开启在mybatis处理过程中打印出对应的sql语句功能
